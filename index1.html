@@ -36,22 +36,22 @@
     <!-- Akhir Navbar -->
     <!-- contact -->
     <section id="contact">
-      <h5 style="padding: 1%;">Dzikir Pagi dan Petang</h5>
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation" style="padding: 0.5%;">
-          <button class="nav-link active" id="pills-pagi-tab" data-bs-toggle="pill" data-bs-target="#pills-pagi" type="button" role="tab" aria-controls="pills-pagi" aria-selected="true">Dzikir Pagi</button>
-        </li>
-        <li class="nav-item" role="presentation" style="padding: 0.5%;">
-          <button class="nav-link" id="pills-petang-tab" data-bs-toggle="pill" data-bs-target="#pills-petang" type="button" role="tab" aria-controls="pills-petang" aria-selected="true">Dzikir Petang</button>
-        </li>
-      </ul>
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-pagi" role="tabpanel" aria-labelledby="pills-pagi-tab" tabindex="0">
           <!-- awal pagi -->
-          <div class="row row-cols-1 row-cols-md-1 g-4">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col mx-auto">
               <div class="card h-100 border-warning">
-                <div class="card-header bg-transparent border-warning fw-bold">Rangkaian Dzikir Pagi</div>
+                <div class="card-header bg-transparent border-warning fw-bold">      
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation" style="padding: 0.5%;">
+                      <button class="nav-link active" id="pills-pagi-tab" data-bs-toggle="pill" data-bs-target="#pills-pagi" type="button" role="tab" aria-controls="pills-pagi" aria-selected="true">Dzikir Pagi</button>
+                    </li>
+                    <li class="nav-item" role="presentation" style="padding: 0.5%;">
+                      <button class="nav-link" id="pills-petang-tab" data-bs-toggle="pill" data-bs-target="#pills-petang" type="button" role="tab" aria-controls="pills-petang" aria-selected="true">Dzikir Petang</button>
+                    </li>
+                  </ul>
+                </div>
                 <!-- <img src="img/pagi.jpg" class="card-img-top" alt="pagi" /> -->
                 <div class="card-body">
                   <!-- <h5 class="card-title"></h5> -->
@@ -87,12 +87,21 @@
           </div>
           <!-- akhir petang -->
         </div>
-        <div class="tab-pane fade show active" id="pills-petang" role="tabpanel" aria-labelledby="pills-petang-tab" tabindex="0">
+        <div class="tab-pane fade" id="pills-petang" role="tabpanel" aria-labelledby="pills-petang-tab" tabindex="0">
           <!-- awal petang -->
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col mx-auto">
               <div class="card h-100 border-warning">
-                <div class="card-header bg-transparent border-warning fw-bold">Rangkaian Dzikir Petang</div>
+                <div class="card-header bg-transparent border-warning fw-bold">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation" style="padding: 0.5%;">
+                      <button class="nav-link active" id="pills-pagi-tab" data-bs-toggle="pill" data-bs-target="#pills-pagi" type="button" role="tab" aria-controls="pills-pagi" aria-selected="true">Dzikir Pagi</button>
+                    </li>
+                    <li class="nav-item" role="presentation" style="padding: 0.5%;">
+                      <button class="nav-link" id="pills-petang-tab" data-bs-toggle="pill" data-bs-target="#pills-petang" type="button" role="tab" aria-controls="pills-petang" aria-selected="true">Dzikir Petang</button>
+                    </li>
+                  </ul>
+                </div>
                 <!-- <img src="img/petang.jpg" class="card-img-top" alt="petang" /> -->
                 <div class="card-body">
                   <!-- <h5 class="card-title">Dibaca 1x <br><br> Terjemah:    </h5> -->
@@ -1089,6 +1098,63 @@
           d="M0,160L48,170.7C96,181,192,203,288,176C384,149,480,75,576,53.3C672,32,768,64,864,96C960,128,1056,160,1152,181.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
+    </section>
+
+    <section>
+      <!-- test -->
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-pills card-header-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#dpagi">Dzikir Pagi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dpetang">Dzikir Petang</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+      
+      <!-- akhir test -->
+    </section>
+
+    <Section id="dpagi">
+      <!-- awal pagi -->
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item"><a href="#pills-akursi1">Ayat Kursi (dibaca 1 kali)</a></li>
+        <li class="list-group-item"><a href="#pills-kulhu1">Surat Al Ikhlas (dibaca 3 kali)</a> </li>
+        <li class="list-group-item"><a href="#pills-falaq1">Surat Al Falaq (dibaca 3 kali)</a></li>
+        <li class="list-group-item">Surat An Naas (dibaca 3 kali)</li>
+        <li class="list-group-item">Memohon Kebaikan di Pagi Hari (dibaca 1 kali)</li>
+        <li class="list-group-item">Memasuki pagi dengan izin Allah (dibaca 1 kali)</li>
+        <li class="list-group-item">Sayyidul Istighfar (dibaca 1 kali)</li>
+        <li class="list-group-item">Memohon perlindungan Fisik dll (dibaca 3 kali)</li>
+        <li class="list-group-item">Memohon keselamatan dunia dan akhirat (dibaca 1 kali)</li>
+        <li class="list-group-item">Memohon perlindungan dari kejahatan diri sendiri (dibaca 1 kali)</li>
+        <li class="list-group-item">Dzikir agar tidak ada yang membahayakan (dibaca 3 kali)</li>
+        <li class="list-group-item">Dzikir ridho kepada Alloh, Rosul dan Islam (dibaca 3 kali)</li>
+        <li class="list-group-item">Memohon perbaikan diri dan urusan kepada Allah (dibaca 1 kali)</li>
+        <li class="list-group-item">Dzikir berada di fitrah islam (dibaca 1 kali)</li>
+        <li class="list-group-item">Dzikir tidak ada sembahan selain Allah (dibaca 10 atau 100 kali)</li>
+        <li class="list-group-item">Dzikir memuji Allah di pagi hari (dibaca 3 kali)</li>
+        <li class="list-group-item">Memohon ilmu yang bermanfaat, rizki yang baik dan amal yang diterima (dibaca 1 kali)</li>
+        <li class="list-group-item">Membaca subhanallahu wabihamdihi (dibaca 100 kali)</li>
+        <li class="list-group-item">Beristighfar kepada Allah (dibaca 100 kali)</li>
+      </ol>
+
+      <!-- akhir pagi -->
+    </Section>
+    <section id="dpetang">
+      <!-- awal sore -->
+
+      <!-- akhir sore -->
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
